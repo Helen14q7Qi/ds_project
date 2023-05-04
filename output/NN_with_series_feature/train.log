@@ -1,0 +1,1 @@
+{'id_name': 'customer_ID', 'feature_name': [], 'label_name': 'target', 'obj_max': 1, 'epochs': 10, 'smoothing': 0.001, 'clipnorm': 1, 'patience': 100, 'lr': 0.0003, 'batch_size': 256, 'folds': 5, 'seed': 42, 'remark': ''}

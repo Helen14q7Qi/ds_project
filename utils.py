@@ -187,8 +187,9 @@ def Lgb_train_and_predict(
                 early_stopping_rounds=early_stopping_rounds,
                 verbose_eval=verbose,
             )
+            print(f'model trained,the fold is {fold}')
             model.save_model(output_path + "/fold%s.ckpt" % fold)
-
+            print("model saved!")
             valid_preds = model.predict(
                 train.loc[val_index, features], num_iteration=model.best_iteration
             )
@@ -272,11 +273,13 @@ def Lgb_train_and_predict(
         sub = test[[id_name]]
         sub["prediction"] = 0
         for fold in range(folds):
+            print(f'fold is {fold}')
             model = lgb.Booster(model_file=output_path + "/fold%s.ckpt" % fold)
             test_preds = model.predict(
                 test[features], num_iteration=model.best_iteration
             )
             sub["prediction"] += test_preds / folds
+
         sub[[id_name, "prediction"]].to_csv(
             output_path + "/submission.csv.zip", compression="zip", index=False
         )

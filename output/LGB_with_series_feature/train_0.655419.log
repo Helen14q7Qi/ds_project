@@ -1,0 +1,912 @@
+{'lgb_params': {'objective': 'binary', 'metric': 'binary_logloss', 'boosting': 'dart', 'max_depth': -1, 'num_leaves': 64, 'learning_rate': 0.035, 'bagging_freq': 5, 'bagging_fraction': 0.7, 'feature_fraction': 0.7, 'min_data_in_leaf': 256, 'max_bin': 63, 'min_data_in_bin': 256, 'tree_learner': 'serial', 'boost_from_average': 'false', 'lambda_l1': 0.1, 'lambda_l2': 30, 'num_threads': 24, 'verbosity': 1, 'seed': 42}, 'feature_name': ['P_2', 'D_39', 'B_1', 'B_2', 'R_1', 'S_3', 'D_41', 'B_3', 'D_42', 'D_43', 'D_44', 'B_4', 'D_45', 'B_5', 'R_2', 'D_46', 'D_47', 'D_48', 'D_49', 'B_6', 'B_7', 'B_8', 'D_50', 'D_51', 'B_9', 'R_3', 'D_52', 'P_3', 'B_10', 'D_53', 'S_5', 'B_11', 'S_6', 'D_54', 'R_4', 'S_7', 'B_12', 'S_8', 'D_55', 'D_56', 'B_13', 'R_5', 'D_58', 'S_9', 'B_14', 'D_59', 'D_60', 'D_61', 'B_15', 'S_11', 'D_62', 'D_63', 'D_64', 'D_65', 'B_16', 'B_17', 'B_18', 'B_19', 'D_66', 'B_20', 'D_68', 'S_12', 'R_6', 'S_13', 'B_21', 'D_69', 'B_22', 'D_70', 'D_71', 'D_72', 'S_15', 'B_23', 'D_73', 'P_4', 'D_74', 'D_75', 'D_76', 'B_24', 'R_7', 'D_77', 'B_25', 'B_26', 'D_78', 'D_79', 'R_8', 'R_9', 'S_16', 'D_80', 'R_10', 'R_11', 'B_27', 'D_81', 'D_82', 'S_17', 'R_12', 'B_28', 'R_13', 'D_83', 'R_14', 'R_15', 'D_84', 'R_16', 'B_29', 'B_30', 'S_18', 'D_86', 'D_87', 'R_17', 'R_18', 'D_88', 'B_31', 'S_19', 'R_19', 'B_32', 'S_20', 'R_20', 'R_21', 'B_33', 'D_89', 'R_22', 'R_23', 'D_91', 'D_92', 'D_93', 'D_94', 'R_24', 'R_25', 'D_96', 'S_22', 'S_23', 'S_24', 'S_25', 'S_26', 'D_102', 'D_103', 'D_104', 'D_105', 'D_106', 'D_107', 'B_36', 'B_37', 'R_26', 'R_27', 'B_38', 'D_108', 'D_109', 'D_110', 'D_111', 'B_39', 'D_112', 'B_40', 'S_27', 'D_113', 'D_114', 'D_115', 'D_116', 'D_117', 'D_118', 'D_119', 'D_120', 'D_121', 'D_122', 'D_123', 'D_124', 'D_125', 'D_126', 'D_127', 'D_128', 'D_129', 'B_41', 'B_42', 'D_130', 'D_131', 'D_132', 'D_133', 'R_28', 'D_134', 'D_135', 'D_136', 'D_137', 'D_138', 'D_139', 'D_140', 'D_141', 'D_142', 'D_143', 'D_144', 'D_145'], 'rounds': 4500, 'early_stopping_rounds': 100, 'verbose_eval': 50, 'folds': 5, 'seed': 42}
+ - 0 round - train_metric: 0.673437 - valid_metric: 0.675240
+
+ - 50 round - train_metric: 0.421208 - valid_metric: 0.456571
+
+ - 100 round - train_metric: 0.354908 - valid_metric: 0.403657
+
+ - 150 round - train_metric: 0.333809 - valid_metric: 0.387686
+
+ - 200 round - train_metric: 0.318996 - valid_metric: 0.378103
+
+ - 250 round - train_metric: 0.283903 - valid_metric: 0.355176
+
+ - 300 round - train_metric: 0.265696 - valid_metric: 0.344607
+
+ - 350 round - train_metric: 0.253330 - valid_metric: 0.339259
+
+ - 400 round - train_metric: 0.246661 - valid_metric: 0.336883
+
+ - 450 round - train_metric: 0.242588 - valid_metric: 0.335355
+
+ - 500 round - train_metric: 0.221623 - valid_metric: 0.329765
+
+ - 550 round - train_metric: 0.213383 - valid_metric: 0.327843
+
+ - 600 round - train_metric: 0.206667 - valid_metric: 0.326640
+
+ - 650 round - train_metric: 0.193097 - valid_metric: 0.326067
+
+ - 700 round - train_metric: 0.183115 - valid_metric: 0.323724
+
+ - 750 round - train_metric: 0.171386 - valid_metric: 0.322766
+
+ - 800 round - train_metric: 0.162859 - valid_metric: 0.321766
+
+ - 850 round - train_metric: 0.151297 - valid_metric: 0.322048
+
+ - 900 round - train_metric: 0.145074 - valid_metric: 0.322118
+
+ - 950 round - train_metric: 0.142988 - valid_metric: 0.321724
+
+ - 1000 round - train_metric: 0.136671 - valid_metric: 0.322406
+
+ - 1050 round - train_metric: 0.131547 - valid_metric: 0.323908
+
+ - 1100 round - train_metric: 0.122782 - valid_metric: 0.325127
+
+ - 1150 round - train_metric: 0.121989 - valid_metric: 0.324159
+
+ - 1200 round - train_metric: 0.118047 - valid_metric: 0.325126
+
+ - 1250 round - train_metric: 0.113818 - valid_metric: 0.326433
+
+ - 1300 round - train_metric: 0.111530 - valid_metric: 0.327000
+
+ - 1350 round - train_metric: 0.109387 - valid_metric: 0.327845
+
+ - 1400 round - train_metric: 0.103643 - valid_metric: 0.329980
+
+ - 1450 round - train_metric: 0.101539 - valid_metric: 0.330401
+
+ - 1500 round - train_metric: 0.099496 - valid_metric: 0.331069
+
+ - 1550 round - train_metric: 0.094170 - valid_metric: 0.333151
+
+ - 1600 round - train_metric: 0.090602 - valid_metric: 0.334831
+
+ - 1650 round - train_metric: 0.087147 - valid_metric: 0.335578
+
+ - 1700 round - train_metric: 0.085270 - valid_metric: 0.336189
+
+ - 1750 round - train_metric: 0.083689 - valid_metric: 0.336161
+
+ - 1800 round - train_metric: 0.082439 - valid_metric: 0.336460
+
+ - 1850 round - train_metric: 0.080589 - valid_metric: 0.337227
+
+ - 1900 round - train_metric: 0.078263 - valid_metric: 0.338083
+
+ - 1950 round - train_metric: 0.075498 - valid_metric: 0.338951
+
+ - 2000 round - train_metric: 0.073439 - valid_metric: 0.340616
+
+ - 2050 round - train_metric: 0.072240 - valid_metric: 0.341169
+
+ - 2100 round - train_metric: 0.070723 - valid_metric: 0.341627
+
+ - 2150 round - train_metric: 0.070689 - valid_metric: 0.341150
+
+ - 2200 round - train_metric: 0.068599 - valid_metric: 0.342882
+
+ - 2250 round - train_metric: 0.066850 - valid_metric: 0.343832
+
+ - 2300 round - train_metric: 0.064991 - valid_metric: 0.345149
+
+ - 2350 round - train_metric: 0.063789 - valid_metric: 0.346146
+
+ - 2400 round - train_metric: 0.062790 - valid_metric: 0.346754
+
+ - 2450 round - train_metric: 0.061248 - valid_metric: 0.347946
+
+ - 2500 round - train_metric: 0.060671 - valid_metric: 0.348590
+
+ - 2550 round - train_metric: 0.059373 - valid_metric: 0.349912
+
+ - 2600 round - train_metric: 0.058301 - valid_metric: 0.350375
+
+ - 2650 round - train_metric: 0.057123 - valid_metric: 0.351004
+
+ - 2700 round - train_metric: 0.055716 - valid_metric: 0.351661
+
+ - 2750 round - train_metric: 0.055259 - valid_metric: 0.352332
+
+ - 2800 round - train_metric: 0.054228 - valid_metric: 0.352910
+
+ - 2850 round - train_metric: 0.052632 - valid_metric: 0.354624
+
+ - 2900 round - train_metric: 0.051827 - valid_metric: 0.355155
+
+ - 2950 round - train_metric: 0.050397 - valid_metric: 0.356750
+
+ - 3000 round - train_metric: 0.049261 - valid_metric: 0.358182
+
+ - 3050 round - train_metric: 0.048210 - valid_metric: 0.359632
+
+ - 3100 round - train_metric: 0.047506 - valid_metric: 0.360184
+
+ - 3150 round - train_metric: 0.046824 - valid_metric: 0.360997
+
+ - 3200 round - train_metric: 0.045609 - valid_metric: 0.362270
+
+ - 3250 round - train_metric: 0.044890 - valid_metric: 0.363259
+
+ - 3300 round - train_metric: 0.044207 - valid_metric: 0.363987
+
+ - 3350 round - train_metric: 0.043116 - valid_metric: 0.364897
+
+ - 3400 round - train_metric: 0.042065 - valid_metric: 0.367147
+
+ - 3450 round - train_metric: 0.041067 - valid_metric: 0.368302
+
+ - 3500 round - train_metric: 0.040606 - valid_metric: 0.368810
+
+ - 3550 round - train_metric: 0.039959 - valid_metric: 0.370284
+
+ - 3600 round - train_metric: 0.039307 - valid_metric: 0.370855
+
+ - 3650 round - train_metric: 0.038675 - valid_metric: 0.371686
+
+ - 3700 round - train_metric: 0.037304 - valid_metric: 0.373869
+
+ - 3750 round - train_metric: 0.036725 - valid_metric: 0.374578
+
+ - 3800 round - train_metric: 0.036297 - valid_metric: 0.375168
+
+ - 3850 round - train_metric: 0.035703 - valid_metric: 0.376039
+
+ - 3900 round - train_metric: 0.035454 - valid_metric: 0.376635
+
+ - 3950 round - train_metric: 0.035401 - valid_metric: 0.376499
+
+ - 4000 round - train_metric: 0.034611 - valid_metric: 0.377848
+
+ - 4050 round - train_metric: 0.034228 - valid_metric: 0.378165
+
+ - 4100 round - train_metric: 0.033603 - valid_metric: 0.379666
+
+ - 4150 round - train_metric: 0.032773 - valid_metric: 0.381021
+
+ - 4200 round - train_metric: 0.032268 - valid_metric: 0.381834
+
+ - 4250 round - train_metric: 0.031771 - valid_metric: 0.382658
+
+ - 4300 round - train_metric: 0.031035 - valid_metric: 0.383889
+
+ - 4350 round - train_metric: 0.030855 - valid_metric: 0.384301
+
+ - 4400 round - train_metric: 0.030636 - valid_metric: 0.384764
+
+ - 4450 round - train_metric: 0.030060 - valid_metric: 0.385612
+
+- fold0 valid metric: 0.601277
+
+ - 0 round - train_metric: 0.673720 - valid_metric: 0.674106
+
+ - 50 round - train_metric: 0.427775 - valid_metric: 0.435902
+
+ - 100 round - train_metric: 0.362141 - valid_metric: 0.376308
+
+ - 150 round - train_metric: 0.340994 - valid_metric: 0.358565
+
+ - 200 round - train_metric: 0.326584 - valid_metric: 0.347627
+
+ - 250 round - train_metric: 0.291550 - valid_metric: 0.319804
+
+ - 300 round - train_metric: 0.273335 - valid_metric: 0.307784
+
+ - 350 round - train_metric: 0.261164 - valid_metric: 0.301029
+
+ - 400 round - train_metric: 0.254074 - valid_metric: 0.297450
+
+ - 450 round - train_metric: 0.249991 - valid_metric: 0.296020
+
+ - 500 round - train_metric: 0.229506 - valid_metric: 0.285579
+
+ - 550 round - train_metric: 0.221443 - valid_metric: 0.282322
+
+ - 600 round - train_metric: 0.215213 - valid_metric: 0.279919
+
+ - 650 round - train_metric: 0.201614 - valid_metric: 0.276596
+
+ - 700 round - train_metric: 0.190830 - valid_metric: 0.274521
+
+ - 750 round - train_metric: 0.179071 - valid_metric: 0.272740
+
+ - 800 round - train_metric: 0.170787 - valid_metric: 0.271952
+
+ - 850 round - train_metric: 0.158603 - valid_metric: 0.271010
+
+ - 900 round - train_metric: 0.151720 - valid_metric: 0.270495
+
+ - 950 round - train_metric: 0.149818 - valid_metric: 0.270762
+
+ - 1000 round - train_metric: 0.143812 - valid_metric: 0.270923
+
+ - 1050 round - train_metric: 0.138713 - valid_metric: 0.271216
+
+ - 1100 round - train_metric: 0.129371 - valid_metric: 0.271191
+
+ - 1150 round - train_metric: 0.128444 - valid_metric: 0.271523
+
+ - 1200 round - train_metric: 0.124171 - valid_metric: 0.271269
+
+ - 1250 round - train_metric: 0.120364 - valid_metric: 0.271361
+
+ - 1300 round - train_metric: 0.117887 - valid_metric: 0.271990
+
+ - 1350 round - train_metric: 0.115803 - valid_metric: 0.271971
+
+ - 1400 round - train_metric: 0.109835 - valid_metric: 0.272265
+
+ - 1450 round - train_metric: 0.107461 - valid_metric: 0.272472
+
+ - 1500 round - train_metric: 0.104997 - valid_metric: 0.272610
+
+ - 1550 round - train_metric: 0.099303 - valid_metric: 0.273767
+
+ - 1600 round - train_metric: 0.095612 - valid_metric: 0.274120
+
+ - 1650 round - train_metric: 0.092141 - valid_metric: 0.274797
+
+ - 1700 round - train_metric: 0.090314 - valid_metric: 0.275348
+
+ - 1750 round - train_metric: 0.088440 - valid_metric: 0.275426
+
+ - 1800 round - train_metric: 0.087232 - valid_metric: 0.275478
+
+ - 1850 round - train_metric: 0.085389 - valid_metric: 0.275451
+
+ - 1900 round - train_metric: 0.082982 - valid_metric: 0.276129
+
+ - 1950 round - train_metric: 0.080260 - valid_metric: 0.276297
+
+ - 2000 round - train_metric: 0.077963 - valid_metric: 0.277042
+
+ - 2050 round - train_metric: 0.076720 - valid_metric: 0.277372
+
+ - 2100 round - train_metric: 0.075018 - valid_metric: 0.277840
+
+ - 2150 round - train_metric: 0.074905 - valid_metric: 0.277673
+
+ - 2200 round - train_metric: 0.072995 - valid_metric: 0.278560
+
+ - 2250 round - train_metric: 0.071235 - valid_metric: 0.279225
+
+ - 2300 round - train_metric: 0.069218 - valid_metric: 0.279862
+
+ - 2350 round - train_metric: 0.068057 - valid_metric: 0.280349
+
+ - 2400 round - train_metric: 0.066827 - valid_metric: 0.280491
+
+ - 2450 round - train_metric: 0.065359 - valid_metric: 0.281051
+
+ - 2500 round - train_metric: 0.064782 - valid_metric: 0.280479
+
+ - 2550 round - train_metric: 0.063424 - valid_metric: 0.280694
+
+ - 2600 round - train_metric: 0.062336 - valid_metric: 0.280725
+
+ - 2650 round - train_metric: 0.061034 - valid_metric: 0.280958
+
+ - 2700 round - train_metric: 0.059517 - valid_metric: 0.281671
+
+ - 2750 round - train_metric: 0.059024 - valid_metric: 0.281589
+
+ - 2800 round - train_metric: 0.058055 - valid_metric: 0.281735
+
+ - 2850 round - train_metric: 0.056292 - valid_metric: 0.282491
+
+ - 2900 round - train_metric: 0.055450 - valid_metric: 0.282921
+
+ - 2950 round - train_metric: 0.053912 - valid_metric: 0.283651
+
+ - 3000 round - train_metric: 0.052761 - valid_metric: 0.283591
+
+ - 3050 round - train_metric: 0.051720 - valid_metric: 0.283956
+
+ - 3100 round - train_metric: 0.050973 - valid_metric: 0.284761
+
+ - 3150 round - train_metric: 0.050321 - valid_metric: 0.284954
+
+ - 3200 round - train_metric: 0.049042 - valid_metric: 0.285468
+
+ - 3250 round - train_metric: 0.048255 - valid_metric: 0.285926
+
+ - 3300 round - train_metric: 0.047544 - valid_metric: 0.286346
+
+ - 3350 round - train_metric: 0.046334 - valid_metric: 0.287460
+
+ - 3400 round - train_metric: 0.045114 - valid_metric: 0.288301
+
+ - 3450 round - train_metric: 0.044077 - valid_metric: 0.289065
+
+ - 3500 round - train_metric: 0.043548 - valid_metric: 0.288912
+
+ - 3550 round - train_metric: 0.042845 - valid_metric: 0.289228
+
+ - 3600 round - train_metric: 0.042174 - valid_metric: 0.289845
+
+ - 3650 round - train_metric: 0.041491 - valid_metric: 0.290140
+
+ - 3700 round - train_metric: 0.040038 - valid_metric: 0.291011
+
+ - 3750 round - train_metric: 0.039438 - valid_metric: 0.291303
+
+ - 3800 round - train_metric: 0.038970 - valid_metric: 0.291352
+
+ - 3850 round - train_metric: 0.038383 - valid_metric: 0.291380
+
+ - 3900 round - train_metric: 0.038144 - valid_metric: 0.291188
+
+ - 3950 round - train_metric: 0.038103 - valid_metric: 0.290645
+
+ - 4000 round - train_metric: 0.037234 - valid_metric: 0.291582
+
+ - 4050 round - train_metric: 0.036881 - valid_metric: 0.291978
+
+ - 4100 round - train_metric: 0.036285 - valid_metric: 0.292392
+
+ - 4150 round - train_metric: 0.035388 - valid_metric: 0.293139
+
+ - 4200 round - train_metric: 0.034877 - valid_metric: 0.293518
+
+ - 4250 round - train_metric: 0.034315 - valid_metric: 0.293783
+
+ - 4300 round - train_metric: 0.033470 - valid_metric: 0.295204
+
+ - 4350 round - train_metric: 0.033256 - valid_metric: 0.295165
+
+ - 4400 round - train_metric: 0.033031 - valid_metric: 0.295237
+
+ - 4450 round - train_metric: 0.032438 - valid_metric: 0.295576
+
+- fold1 valid metric: 0.690006
+
+ - 0 round - train_metric: 0.673740 - valid_metric: 0.673931
+
+ - 50 round - train_metric: 0.428532 - valid_metric: 0.434566
+
+ - 100 round - train_metric: 0.362846 - valid_metric: 0.375170
+
+ - 150 round - train_metric: 0.342337 - valid_metric: 0.358077
+
+ - 200 round - train_metric: 0.327440 - valid_metric: 0.346420
+
+ - 250 round - train_metric: 0.292525 - valid_metric: 0.319484
+
+ - 300 round - train_metric: 0.274117 - valid_metric: 0.306939
+
+ - 350 round - train_metric: 0.261982 - valid_metric: 0.299868
+
+ - 400 round - train_metric: 0.255145 - valid_metric: 0.297206
+
+ - 450 round - train_metric: 0.250862 - valid_metric: 0.296148
+
+ - 500 round - train_metric: 0.229741 - valid_metric: 0.285852
+
+ - 550 round - train_metric: 0.221725 - valid_metric: 0.284063
+
+ - 600 round - train_metric: 0.215100 - valid_metric: 0.282256
+
+ - 650 round - train_metric: 0.201961 - valid_metric: 0.279354
+
+ - 700 round - train_metric: 0.191300 - valid_metric: 0.277677
+
+ - 750 round - train_metric: 0.179165 - valid_metric: 0.276352
+
+ - 800 round - train_metric: 0.170387 - valid_metric: 0.275955
+
+ - 850 round - train_metric: 0.158387 - valid_metric: 0.275514
+
+ - 900 round - train_metric: 0.152110 - valid_metric: 0.275897
+
+ - 950 round - train_metric: 0.150136 - valid_metric: 0.275509
+
+ - 1000 round - train_metric: 0.144221 - valid_metric: 0.276465
+
+ - 1050 round - train_metric: 0.138990 - valid_metric: 0.277103
+
+ - 1100 round - train_metric: 0.129637 - valid_metric: 0.277983
+
+ - 1150 round - train_metric: 0.128605 - valid_metric: 0.278009
+
+ - 1200 round - train_metric: 0.124243 - valid_metric: 0.278285
+
+ - 1250 round - train_metric: 0.120233 - valid_metric: 0.278954
+
+ - 1300 round - train_metric: 0.117755 - valid_metric: 0.278686
+
+ - 1350 round - train_metric: 0.115579 - valid_metric: 0.278866
+
+ - 1400 round - train_metric: 0.109578 - valid_metric: 0.279897
+
+ - 1450 round - train_metric: 0.107649 - valid_metric: 0.279314
+
+ - 1500 round - train_metric: 0.104972 - valid_metric: 0.279939
+
+ - 1550 round - train_metric: 0.099315 - valid_metric: 0.280619
+
+ - 1600 round - train_metric: 0.095723 - valid_metric: 0.281218
+
+ - 1650 round - train_metric: 0.092056 - valid_metric: 0.281798
+
+ - 1700 round - train_metric: 0.090215 - valid_metric: 0.281999
+
+ - 1750 round - train_metric: 0.088470 - valid_metric: 0.282050
+
+ - 1800 round - train_metric: 0.087082 - valid_metric: 0.282000
+
+ - 1850 round - train_metric: 0.085164 - valid_metric: 0.282216
+
+ - 1900 round - train_metric: 0.082468 - valid_metric: 0.283182
+
+ - 1950 round - train_metric: 0.079820 - valid_metric: 0.284296
+
+ - 2000 round - train_metric: 0.077606 - valid_metric: 0.284709
+
+ - 2050 round - train_metric: 0.076413 - valid_metric: 0.284666
+
+ - 2100 round - train_metric: 0.074655 - valid_metric: 0.285441
+
+ - 2150 round - train_metric: 0.074563 - valid_metric: 0.284920
+
+ - 2200 round - train_metric: 0.072448 - valid_metric: 0.285533
+
+ - 2250 round - train_metric: 0.070585 - valid_metric: 0.286000
+
+ - 2300 round - train_metric: 0.068668 - valid_metric: 0.287019
+
+ - 2350 round - train_metric: 0.067565 - valid_metric: 0.287294
+
+ - 2400 round - train_metric: 0.066392 - valid_metric: 0.287876
+
+ - 2450 round - train_metric: 0.064832 - valid_metric: 0.288432
+
+ - 2500 round - train_metric: 0.064228 - valid_metric: 0.288267
+
+ - 2550 round - train_metric: 0.062800 - valid_metric: 0.289090
+
+ - 2600 round - train_metric: 0.061604 - valid_metric: 0.289287
+
+ - 2650 round - train_metric: 0.060359 - valid_metric: 0.289604
+
+ - 2700 round - train_metric: 0.058904 - valid_metric: 0.289915
+
+ - 2750 round - train_metric: 0.058407 - valid_metric: 0.290207
+
+ - 2800 round - train_metric: 0.057390 - valid_metric: 0.289975
+
+ - 2850 round - train_metric: 0.055679 - valid_metric: 0.291197
+
+ - 2900 round - train_metric: 0.054904 - valid_metric: 0.291310
+
+ - 2950 round - train_metric: 0.053453 - valid_metric: 0.292434
+
+ - 3000 round - train_metric: 0.052321 - valid_metric: 0.292868
+
+ - 3050 round - train_metric: 0.051377 - valid_metric: 0.293565
+
+ - 3100 round - train_metric: 0.050704 - valid_metric: 0.293793
+
+ - 3150 round - train_metric: 0.050064 - valid_metric: 0.294569
+
+ - 3200 round - train_metric: 0.048847 - valid_metric: 0.295095
+
+ - 3250 round - train_metric: 0.048033 - valid_metric: 0.295330
+
+ - 3300 round - train_metric: 0.047336 - valid_metric: 0.295627
+
+ - 3350 round - train_metric: 0.046266 - valid_metric: 0.296476
+
+ - 3400 round - train_metric: 0.045155 - valid_metric: 0.297128
+
+ - 3450 round - train_metric: 0.044106 - valid_metric: 0.298260
+
+ - 3500 round - train_metric: 0.043590 - valid_metric: 0.298487
+
+ - 3550 round - train_metric: 0.042882 - valid_metric: 0.298613
+
+ - 3600 round - train_metric: 0.042209 - valid_metric: 0.298852
+
+ - 3650 round - train_metric: 0.041545 - valid_metric: 0.299213
+
+ - 3700 round - train_metric: 0.040178 - valid_metric: 0.300763
+
+ - 3750 round - train_metric: 0.039537 - valid_metric: 0.301159
+
+ - 3800 round - train_metric: 0.039086 - valid_metric: 0.301047
+
+ - 3850 round - train_metric: 0.038545 - valid_metric: 0.301651
+
+ - 3900 round - train_metric: 0.038261 - valid_metric: 0.301738
+
+ - 3950 round - train_metric: 0.038229 - valid_metric: 0.301661
+
+ - 4000 round - train_metric: 0.037362 - valid_metric: 0.302850
+
+ - 4050 round - train_metric: 0.037002 - valid_metric: 0.302948
+
+ - 4100 round - train_metric: 0.036385 - valid_metric: 0.303793
+
+ - 4150 round - train_metric: 0.035490 - valid_metric: 0.304954
+
+ - 4200 round - train_metric: 0.034990 - valid_metric: 0.305617
+
+ - 4250 round - train_metric: 0.034417 - valid_metric: 0.305786
+
+ - 4300 round - train_metric: 0.033627 - valid_metric: 0.306439
+
+ - 4350 round - train_metric: 0.033413 - valid_metric: 0.306235
+
+ - 4400 round - train_metric: 0.033146 - valid_metric: 0.306393
+
+ - 4450 round - train_metric: 0.032544 - valid_metric: 0.307238
+
+- fold2 valid metric: 0.689442
+
+ - 0 round - train_metric: 0.673539 - valid_metric: 0.674151
+
+ - 50 round - train_metric: 0.426195 - valid_metric: 0.442708
+
+ - 100 round - train_metric: 0.360175 - valid_metric: 0.385184
+
+ - 150 round - train_metric: 0.339363 - valid_metric: 0.367639
+
+ - 200 round - train_metric: 0.324439 - valid_metric: 0.356577
+
+ - 250 round - train_metric: 0.289551 - valid_metric: 0.331142
+
+ - 300 round - train_metric: 0.271318 - valid_metric: 0.320137
+
+ - 350 round - train_metric: 0.258521 - valid_metric: 0.313166
+
+ - 400 round - train_metric: 0.251403 - valid_metric: 0.310462
+
+ - 450 round - train_metric: 0.246709 - valid_metric: 0.308856
+
+ - 500 round - train_metric: 0.225714 - valid_metric: 0.300854
+
+ - 550 round - train_metric: 0.217394 - valid_metric: 0.298923
+
+ - 600 round - train_metric: 0.210756 - valid_metric: 0.297542
+
+ - 650 round - train_metric: 0.197861 - valid_metric: 0.296052
+
+ - 700 round - train_metric: 0.187739 - valid_metric: 0.295337
+
+ - 750 round - train_metric: 0.176103 - valid_metric: 0.295280
+
+ - 800 round - train_metric: 0.167495 - valid_metric: 0.295633
+
+ - 850 round - train_metric: 0.155977 - valid_metric: 0.296353
+
+ - 900 round - train_metric: 0.149692 - valid_metric: 0.296905
+
+ - 950 round - train_metric: 0.147455 - valid_metric: 0.297194
+
+ - 1000 round - train_metric: 0.140995 - valid_metric: 0.297857
+
+ - 1050 round - train_metric: 0.136188 - valid_metric: 0.297787
+
+ - 1100 round - train_metric: 0.126973 - valid_metric: 0.299286
+
+ - 1150 round - train_metric: 0.126139 - valid_metric: 0.298740
+
+ - 1200 round - train_metric: 0.121966 - valid_metric: 0.299791
+
+ - 1250 round - train_metric: 0.118307 - valid_metric: 0.299992
+
+ - 1300 round - train_metric: 0.115903 - valid_metric: 0.300213
+
+ - 1350 round - train_metric: 0.113566 - valid_metric: 0.300713
+
+ - 1400 round - train_metric: 0.107602 - valid_metric: 0.302128
+
+ - 1450 round - train_metric: 0.105606 - valid_metric: 0.302296
+
+ - 1500 round - train_metric: 0.103241 - valid_metric: 0.302168
+
+ - 1550 round - train_metric: 0.097614 - valid_metric: 0.304062
+
+ - 1600 round - train_metric: 0.093803 - valid_metric: 0.305319
+
+ - 1650 round - train_metric: 0.090353 - valid_metric: 0.305952
+
+ - 1700 round - train_metric: 0.088504 - valid_metric: 0.305949
+
+ - 1750 round - train_metric: 0.086896 - valid_metric: 0.306311
+
+ - 1800 round - train_metric: 0.085696 - valid_metric: 0.306506
+
+ - 1850 round - train_metric: 0.083577 - valid_metric: 0.307215
+
+ - 1900 round - train_metric: 0.081056 - valid_metric: 0.308976
+
+ - 1950 round - train_metric: 0.078539 - valid_metric: 0.309820
+
+ - 2000 round - train_metric: 0.076251 - valid_metric: 0.310201
+
+ - 2050 round - train_metric: 0.074915 - valid_metric: 0.310720
+
+ - 2100 round - train_metric: 0.073433 - valid_metric: 0.311442
+
+ - 2150 round - train_metric: 0.073269 - valid_metric: 0.311648
+
+ - 2200 round - train_metric: 0.071158 - valid_metric: 0.312474
+
+ - 2250 round - train_metric: 0.069348 - valid_metric: 0.313011
+
+ - 2300 round - train_metric: 0.067394 - valid_metric: 0.313736
+
+ - 2350 round - train_metric: 0.066300 - valid_metric: 0.314075
+
+ - 2400 round - train_metric: 0.065058 - valid_metric: 0.314525
+
+ - 2450 round - train_metric: 0.063483 - valid_metric: 0.315350
+
+ - 2500 round - train_metric: 0.062811 - valid_metric: 0.315358
+
+ - 2550 round - train_metric: 0.061425 - valid_metric: 0.316167
+
+ - 2600 round - train_metric: 0.060424 - valid_metric: 0.316160
+
+ - 2650 round - train_metric: 0.059244 - valid_metric: 0.317053
+
+ - 2700 round - train_metric: 0.057840 - valid_metric: 0.318106
+
+ - 2750 round - train_metric: 0.057425 - valid_metric: 0.317822
+
+ - 2800 round - train_metric: 0.056426 - valid_metric: 0.318612
+
+ - 2850 round - train_metric: 0.054726 - valid_metric: 0.320180
+
+ - 2900 round - train_metric: 0.053884 - valid_metric: 0.320473
+
+ - 2950 round - train_metric: 0.052496 - valid_metric: 0.321661
+
+ - 3000 round - train_metric: 0.051404 - valid_metric: 0.322448
+
+ - 3050 round - train_metric: 0.050428 - valid_metric: 0.323378
+
+ - 3100 round - train_metric: 0.049636 - valid_metric: 0.323661
+
+ - 3150 round - train_metric: 0.048921 - valid_metric: 0.323476
+
+ - 3200 round - train_metric: 0.047691 - valid_metric: 0.324577
+
+ - 3250 round - train_metric: 0.046934 - valid_metric: 0.325005
+
+ - 3300 round - train_metric: 0.046175 - valid_metric: 0.325670
+
+ - 3350 round - train_metric: 0.045078 - valid_metric: 0.326643
+
+ - 3400 round - train_metric: 0.043976 - valid_metric: 0.327643
+
+ - 3450 round - train_metric: 0.043000 - valid_metric: 0.327986
+
+ - 3500 round - train_metric: 0.042454 - valid_metric: 0.327642
+
+ - 3550 round - train_metric: 0.041752 - valid_metric: 0.328054
+
+ - 3600 round - train_metric: 0.041094 - valid_metric: 0.328555
+
+ - 3650 round - train_metric: 0.040413 - valid_metric: 0.329018
+
+ - 3700 round - train_metric: 0.039020 - valid_metric: 0.330645
+
+ - 3750 round - train_metric: 0.038452 - valid_metric: 0.331155
+
+ - 3800 round - train_metric: 0.037986 - valid_metric: 0.331321
+
+ - 3850 round - train_metric: 0.037456 - valid_metric: 0.332019
+
+ - 3900 round - train_metric: 0.037226 - valid_metric: 0.332179
+
+ - 3950 round - train_metric: 0.037151 - valid_metric: 0.332115
+
+ - 4000 round - train_metric: 0.036273 - valid_metric: 0.333071
+
+ - 4050 round - train_metric: 0.035887 - valid_metric: 0.332994
+
+ - 4100 round - train_metric: 0.035272 - valid_metric: 0.333852
+
+ - 4150 round - train_metric: 0.034427 - valid_metric: 0.335678
+
+ - 4200 round - train_metric: 0.033950 - valid_metric: 0.336010
+
+ - 4250 round - train_metric: 0.033408 - valid_metric: 0.336561
+
+ - 4300 round - train_metric: 0.032627 - valid_metric: 0.337362
+
+ - 4350 round - train_metric: 0.032388 - valid_metric: 0.337523
+
+ - 4400 round - train_metric: 0.032155 - valid_metric: 0.337819
+
+ - 4450 round - train_metric: 0.031559 - valid_metric: 0.338685
+
+- fold3 valid metric: 0.649284
+
+ - 0 round - train_metric: 0.673931 - valid_metric: 0.674218
+
+ - 50 round - train_metric: 0.427490 - valid_metric: 0.438226
+
+ - 100 round - train_metric: 0.361847 - valid_metric: 0.379860
+
+ - 150 round - train_metric: 0.341168 - valid_metric: 0.363286
+
+ - 200 round - train_metric: 0.326928 - valid_metric: 0.351669
+
+ - 250 round - train_metric: 0.291696 - valid_metric: 0.325112
+
+ - 300 round - train_metric: 0.273557 - valid_metric: 0.313757
+
+ - 350 round - train_metric: 0.260760 - valid_metric: 0.307329
+
+ - 400 round - train_metric: 0.254186 - valid_metric: 0.303775
+
+ - 450 round - train_metric: 0.249918 - valid_metric: 0.302496
+
+ - 500 round - train_metric: 0.229233 - valid_metric: 0.294384
+
+ - 550 round - train_metric: 0.220137 - valid_metric: 0.292175
+
+ - 600 round - train_metric: 0.213393 - valid_metric: 0.290411
+
+ - 650 round - train_metric: 0.199089 - valid_metric: 0.287036
+
+ - 700 round - train_metric: 0.188650 - valid_metric: 0.286167
+
+ - 750 round - train_metric: 0.176848 - valid_metric: 0.286112
+
+ - 800 round - train_metric: 0.168320 - valid_metric: 0.286149
+
+ - 850 round - train_metric: 0.156263 - valid_metric: 0.286354
+
+ - 900 round - train_metric: 0.149884 - valid_metric: 0.286877
+
+ - 950 round - train_metric: 0.147847 - valid_metric: 0.286985
+
+ - 1000 round - train_metric: 0.141622 - valid_metric: 0.287231
+
+ - 1050 round - train_metric: 0.136529 - valid_metric: 0.287258
+
+ - 1100 round - train_metric: 0.127741 - valid_metric: 0.288785
+
+ - 1150 round - train_metric: 0.126751 - valid_metric: 0.288689
+
+ - 1200 round - train_metric: 0.122440 - valid_metric: 0.289078
+
+ - 1250 round - train_metric: 0.118294 - valid_metric: 0.289657
+
+ - 1300 round - train_metric: 0.115716 - valid_metric: 0.289776
+
+ - 1350 round - train_metric: 0.113681 - valid_metric: 0.290237
+
+ - 1400 round - train_metric: 0.107655 - valid_metric: 0.291133
+
+ - 1450 round - train_metric: 0.105638 - valid_metric: 0.291434
+
+ - 1500 round - train_metric: 0.103490 - valid_metric: 0.291402
+
+ - 1550 round - train_metric: 0.097658 - valid_metric: 0.292850
+
+ - 1600 round - train_metric: 0.093738 - valid_metric: 0.293901
+
+ - 1650 round - train_metric: 0.090503 - valid_metric: 0.295234
+
+ - 1700 round - train_metric: 0.088715 - valid_metric: 0.295191
+
+ - 1750 round - train_metric: 0.087157 - valid_metric: 0.295115
+
+ - 1800 round - train_metric: 0.085938 - valid_metric: 0.295249
+
+ - 1850 round - train_metric: 0.083936 - valid_metric: 0.295319
+
+ - 1900 round - train_metric: 0.081588 - valid_metric: 0.296178
+
+ - 1950 round - train_metric: 0.078924 - valid_metric: 0.297034
+
+ - 2000 round - train_metric: 0.076685 - valid_metric: 0.297481
+
+ - 2050 round - train_metric: 0.075456 - valid_metric: 0.297250
+
+ - 2100 round - train_metric: 0.073919 - valid_metric: 0.298037
+
+ - 2150 round - train_metric: 0.073673 - valid_metric: 0.298032
+
+ - 2200 round - train_metric: 0.071598 - valid_metric: 0.299188
+
+ - 2250 round - train_metric: 0.069781 - valid_metric: 0.300286
+
+ - 2300 round - train_metric: 0.067881 - valid_metric: 0.300842
+
+ - 2350 round - train_metric: 0.066756 - valid_metric: 0.300575
+
+ - 2400 round - train_metric: 0.065560 - valid_metric: 0.300823
+
+ - 2450 round - train_metric: 0.064061 - valid_metric: 0.301456
+
+ - 2500 round - train_metric: 0.063399 - valid_metric: 0.301767
+
+ - 2550 round - train_metric: 0.061996 - valid_metric: 0.301656
+
+ - 2600 round - train_metric: 0.060974 - valid_metric: 0.302579
+
+ - 2650 round - train_metric: 0.059792 - valid_metric: 0.303309
+
+ - 2700 round - train_metric: 0.058154 - valid_metric: 0.304249
+
+ - 2750 round - train_metric: 0.057719 - valid_metric: 0.304524
+
+ - 2800 round - train_metric: 0.056763 - valid_metric: 0.305244
+
+ - 2850 round - train_metric: 0.055016 - valid_metric: 0.306287
+
+ - 2900 round - train_metric: 0.054177 - valid_metric: 0.306525
+
+ - 2950 round - train_metric: 0.052744 - valid_metric: 0.307691
+
+ - 3000 round - train_metric: 0.051736 - valid_metric: 0.308118
+
+ - 3050 round - train_metric: 0.050784 - valid_metric: 0.309112
+
+ - 3100 round - train_metric: 0.049933 - valid_metric: 0.309577
+
+ - 3150 round - train_metric: 0.049277 - valid_metric: 0.309606
+
+ - 3200 round - train_metric: 0.048088 - valid_metric: 0.310417
+
+ - 3250 round - train_metric: 0.047309 - valid_metric: 0.311191
+
+ - 3300 round - train_metric: 0.046583 - valid_metric: 0.311676
+
+ - 3350 round - train_metric: 0.045490 - valid_metric: 0.311822
+
+ - 3400 round - train_metric: 0.044474 - valid_metric: 0.313280
+
+ - 3450 round - train_metric: 0.043397 - valid_metric: 0.313824
+
+ - 3500 round - train_metric: 0.042882 - valid_metric: 0.314174
+
+ - 3550 round - train_metric: 0.042257 - valid_metric: 0.315001
+
+ - 3600 round - train_metric: 0.041575 - valid_metric: 0.315561
+
+ - 3650 round - train_metric: 0.040918 - valid_metric: 0.316199
+
+ - 3700 round - train_metric: 0.039467 - valid_metric: 0.317686
+
+ - 3750 round - train_metric: 0.038883 - valid_metric: 0.318197
+
+ - 3800 round - train_metric: 0.038435 - valid_metric: 0.318691
+
+ - 3850 round - train_metric: 0.037871 - valid_metric: 0.319300
+
+ - 3900 round - train_metric: 0.037627 - valid_metric: 0.319489
+
+ - 3950 round - train_metric: 0.037535 - valid_metric: 0.319815
+
+ - 4000 round - train_metric: 0.036642 - valid_metric: 0.320781
+
+ - 4050 round - train_metric: 0.036292 - valid_metric: 0.321161
+
+ - 4100 round - train_metric: 0.035695 - valid_metric: 0.321660
+
+ - 4150 round - train_metric: 0.034793 - valid_metric: 0.322749
+
+ - 4200 round - train_metric: 0.034290 - valid_metric: 0.323151
+
+ - 4250 round - train_metric: 0.033742 - valid_metric: 0.323524
+
+ - 4300 round - train_metric: 0.032882 - valid_metric: 0.324224
+
+ - 4350 round - train_metric: 0.032686 - valid_metric: 0.324453
+
+ - 4400 round - train_metric: 0.032442 - valid_metric: 0.324895
+
+ - 4450 round - train_metric: 0.031842 - valid_metric: 0.325956
+
+- fold4 valid metric: 0.647084
+
+all valid mean metric:0.655419, global valid metric:0.652715
